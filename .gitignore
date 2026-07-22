@@ -1,0 +1,21 @@
+# Secrets — proj-specs.txt contains a plaintext API key; never commit it
+.env
+proj-specs.txt
+
+# Large data
+*.csv
+
+# Generated output
+reports/
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Internal design/plan docs
+docs/
