@@ -22,7 +22,7 @@ SENSITIVE_EVENT_PREFIXES = (
 
 # Shared/service-style accounts excluded from candidate selection: their
 # multi-operator usage looks like impossible travel / auth anomalies.
-IGNORED_USER_PREFIXES = ("gts.", "oktaprod.", "hd.")
+IGNORED_USER_PREFIXES = ("gts.", "eis.", "oktaprod.", "hd.")
 # The organization's own trusted networks by /16 (campus + VPN/cloud egress). Activity from here is an
 # on-site employee/student and is honest by definition — it never contributes
 # to activity-based suspicion signals and can never be a campaign attack block.

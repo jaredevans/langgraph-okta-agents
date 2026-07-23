@@ -66,7 +66,7 @@ Useful flags:
 Each run writes to `reports/<UTC timestamp>/`: one `<case_id>.json` (machine-
 readable incident ticket) and one `<case_id>.md` (human-readable report) per
 case, plus a `summary.md` index table. Case ids carry the user's full name
-(`case-001-sherrod-carrington`). Reports are written **one at a time as each
+(`case-001-jared-evans`). Reports are written **one at a time as each
 case finishes** (and `summary.md` refreshes), so you can read results during a
 long run instead of waiting for the end. Each Markdown report's Risk
 Assessment opens with a plain-language **Summary** line derived from the
